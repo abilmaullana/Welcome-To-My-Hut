@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Submission</title>
+
+    <link rel="icon" href="../page/asset img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- Navigasi Bar -->
+     <nav>
+        <ul>
+          <li>
+            <img src="../page/asset img/Logo.jpg" alt="Logo" />
+          </li>
+          <li>
+            <a href="../home/index.html"> Home </a>
+          </li>
+          <li>
+            <a href="../My project/index.html"> My Project </a>
+          </li>
+        </ul>
+  
+        <div class="Contact">
+          <a href="https://wa.me/6289652380113">
+            <button>Contact Me</button>
+          </a>
+        </div>
+      </nav>
+
+
+      <!-- Main Form -->
+      <section>
+        <div class="container">
+
+            <h1>GET IN TOUCH</h1>
+    
+            <form action="">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" id="phone">
+                </div>
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject">
+                        <option></option>
+                        <option>Frontend</option>
+                        <option>Backend</option>
+                        <option>UI/UX</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" cols="40" rows="6"></textarea>
+                </div>
+                <div class="Form">
+                    <button type ="button"onclick ="submitData()">submit</button>
+                </div>
+            </form>
+        </div>
+      </section>
+
+</body>
+<script src="from.js"></script>
+</html>
